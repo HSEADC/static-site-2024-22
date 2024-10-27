@@ -3,20 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>рецепты</title>
+    <meta property="og:title" content="Кузовок" />
+    <meta
+      property="og:description"
+      content="Библиотека рецептов выпечки народов России"
+    />
+    <meta property="og:image" content="images/cover.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="images/cover.jpg" />
+    <title>Кузовок</title>
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
   </head>
   <body>
-    <h2>Рецепты</h2>
-    <p><a href="recipes/cherry-pies.html">Пирожки с вишней</a></p>
-    <p><a href="recipes/apple-pies.html">Пирожки с яблоками</a></p>
-    <p>
-      <a href="recipes/shangi-s-kartoshkoy-i-syrom.html"
-        >Шаньги с картошкой и сыром</a
-      >
-    </p>
+    <header class="header">
+      <a class="header-logo" href="/">Кузовок</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="example.html">Пример статьи</a></li>
+          <li><a href="about.html">О проекте</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="#"><img src="images/telegram-icon.svg" alt="Telegram" /></a>
+        <a href="#"><img src="images/vk-icon.svg" alt="VK" /></a>
+      </div>
+    </header>
 
-    <p>
-      <a href="index.html">Назад</a>
-    </p>
+    <section class="subscribe-section">
+      <div class="decorations">
+        <!-- <img src="images/pretzel.png" alt="pretzel" />
+        <img src="images/croissant.png" alt="croissant" /> -->
+        <!-- добавьте остальные декоративные элементы -->
+      </div>
+      <h1>Оставьте свою почту, чтобы не пропустить запуск</h1>
+      <form action="https://formspree.io/f/mjkvgvjr" method="POST">
+        <input type="email" name="email" placeholder="email" required />
+        <button type="submit">Подписаться</button>
+      </form>
+    </section>
   </body>
 </html>
