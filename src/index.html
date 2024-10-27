@@ -6,25 +6,32 @@
     <title>Кузовок</title>
   </head>
   <body>
-    <header>
-      <div class="header-logo">Кузовок</div>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">Пример статьи</a></li>
-        <li><a href="about.html">О нас</a></li>
-        <li><a href="recipes.html">Рецепты</a></li>
-        <!-- <li><a href="collections.html">Подборки</a></li>
-        <li><a href="articles.html">Статьи</a></li>
-        <li><a href="quizzes.html">Квизы</a></li> -->
-      </ul>
+    <header class="header">
+      <a class="header-logo" href="/">Кузовок</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="example.html">Пример статьи</a></li>
+          <li><a href="about.html">О проекте</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="#"><img src="images/telegram-icon.svg" alt="Telegram" /></a>
+        <a href="#"><img src="images/vk-icon.svg" alt="VK" /></a>
+      </div>
     </header>
 
-    <form action="https://formspree.io/f/mjkvgvjr" method="POST">
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <button type="submit">Подписаться</button>
-    </form>
+    <section class="subscribe-section">
+      <div class="decorations">
+        <!-- <img src="images/pretzel.png" alt="pretzel" />
+        <img src="images/croissant.png" alt="croissant" /> -->
+        <!-- добавьте остальные декоративные элементы -->
+      </div>
+      <h1>Оставьте свою почту, чтобы не пропустить запуск</h1>
+      <form action="https://formspree.io/f/mjkvgvjr" method="POST">
+        <input type="email" name="email" placeholder="email" required />
+        <button type="submit">Подписаться</button>
+      </form>
+    </section>
   </body>
 </html>
