@@ -1,5 +1,4 @@
 @font-face {
-<<<<<<< HEAD
 	font-family: 'MV-WEEKEND';
 	src: url(../fonts/MV-WEEKEND.otf);
 }
@@ -7,31 +6,25 @@
 	font-family: 'Inter-Regular';
 	font-weight: 400;
 	src: url(../fonts/Inter-Regular.otf);
-=======
-  font-family: 'MV-WEEKEND';
-  src: url('../fonts/MV-WEEKEND.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'Inter';
+	src: url('../fonts/Inter-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
+	font-family: 'Inter';
+	src: url('../fonts/Inter-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
->>>>>>> b7a471759b2e770228cc44761caaa4975487addf
+	font-family: 'Inter';
+	src: url('../fonts/Inter-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
 }

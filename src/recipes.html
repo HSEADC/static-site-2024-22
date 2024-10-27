@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>рецепты</title>
   </head>
   <body>
@@ -20,13 +21,23 @@
       <a href="index.html">Назад</a>
     </p>
 =======
+=======
+    <meta property="og:title" content="Кузовок" />
+    <meta
+      property="og:description"
+      content="Библиотека рецептов выпечки народов России"
+    />
+    <meta property="og:image" content="images/cover.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="images/cover.jpg" />
+>>>>>>> 897544d3ccfe7be148223a69679f2e39eff03b3a
     <title>Кузовок</title>
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
     <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
   </head>
   <body>
     <header class="header">
-      <a class="header-logo" href="/">Кузовок</a>
+      <a class="header-logo" href="index.html">Кузовок</a>
       <nav class="nav">
         <ul>
           <li><a href="index.html">Главная</a></li>
@@ -62,41 +73,84 @@
       <div class="recipe-content">
         <section class="instructions">
           <h2>Приготовление</h2>
-          <p>
-            Шаг 1: Замесите тесто из закваски, воды, соли и муки. Хорошо
-            вымесите. Положите в холодильник на полчаса.
-          </p>
-          <p>Шаг 2: Приготовьте картофельное пюре...</p>
-          <!-- Добавьте остальные шаги -->
+          <div class="step">
+            <h3>Шаг 1</h3>
+            <p>
+              Замесите тесто из закваски, воды, соли и муки. Хорошо вымесите.
+              Положите в холодильник на полчаса.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Шаг 2</h3>
+            <p>
+              Приготовьте картофельное пюре: отварите картофель, разомните
+              толкушкой, добавьте соль, сливочное масло и теплое молоко.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Шаг 3</h3>
+            <p>
+              От теста отщипните шарики размером примерно с грецкий орех, тонко
+              раскатайте, положите начинку в центр, оставив 1 см с краю, края
+              защипните, делая бортики.
+            </p>
+          </div>
+          <div class="step">
+            <h3>Шаг 4</h3>
+            <p>
+              Смажьте смесью яйца и сметаны и отправьте в разогретую до 180°C
+              духовку на 40 минут. Готовые калитки смажьте сливочным маслом.
+            </p>
+          </div>
         </section>
 
         <section class="ingredients">
           <h2>Ингредиенты</h2>
           <ul>
-            <li>Ржаная закваска - 150 г</li>
-            <li>Вода - 100 г</li>
-            <li>Ржаная мука - 150 г</li>
-            <!-- Добавьте остальные ингредиенты -->
+            <li><span>Ржаная хлебная закваска</span><span>150 г</span></li>
+            <li><span>Вода</span><span>100 г</span></li>
+            <li><span>Ржаная мука</span><span>150 г</span></li>
+            <li><span>Пшеничная мука хлебопекарная</span><span>100 г</span></li>
+            <li><span>Соль</span><span>1 г</span></li>
+            <li><span>Картошка</span><span>8 шт</span></li>
+            <li><span>Молоко</span><span>200 г</span></li>
+            <li><span>Куриное яйцо</span><span>1 шт</span></li>
+            <li><span>Сметана</span><span>25 г</span></li>
+            <li><span>Сливочное масло</span><span>по вкусу</span></li>
           </ul>
         </section>
       </div>
-    </main>
-    <footer class="recipe-footer">
-      <div class="social-share">
-        <a
-          href="https://t.me/share/url?url=https://hseadc.github.io/Kuzovok/recipes.html&text=Какой крутой сайт с рецептами выпечки народов России"
-          target="_blank"
-          ><img
-            src="images/telegram-icon.svg"
-            alt="Поделиться страницей в Тееграме"
-        /></a>
-        <a
-          href="https://vk.com/share.php?url=https://hseadc.github.io/Kuzovok/recipes.html"
-          target="_blank"
-          ><img src="images/vk-icon.svg" alt="Поделиться страницей ВКонтакте"
-        /></a>
+      <div class="action-buttons">
+        <div class="social-section">
+          <span>Поделиться в соцсетях</span>
+          <div class="social-share">
+            <a
+              href="https://t.me/share/url?url=https://hseadc.github.io/Kuzovok/recipes.html&text=Какой крутой сайт с рецептами выпечки народов России"
+              target="_blank"
+            >
+              <img
+                src="images/telegram-icon.svg"
+                alt="Поделиться в Телеграме"
+              />
+            </a>
+            <a
+              href="https://vk.com/share.php?url=https://hseadc.github.io/Kuzovok/recipes.html"
+              target="_blank"
+            >
+              <img src="images/vk-icon.svg" alt="Поделиться ВКонтакте" />
+            </a>
+          </div>
+        </div>
+
+        <div class="print-section">
+          <span>Распечатать рецепт</span>
+          <button class="print-button">PDF</button>
+        </div>
       </div>
-      <button class="print-button">Распечатать рецепт</button>
+    </main>
+    <footer>
+      <div class="footer-logo">Кузовок</div>
+      <div>HSE ADC, 2024</div>
     </footer>
 >>>>>>> b7a471759b2e770228cc44761caaa4975487addf
   </body>
