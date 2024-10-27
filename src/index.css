@@ -3,4 +3,8 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/main.scss';
+<<<<<<< HEAD
+=======
+@import 'stylesheets/recipes.scss';
+>>>>>>> 5dacc3ec73f52dee37a73e771ddf662e0dfae321
 @import 'stylesheets/responsive.scss';
