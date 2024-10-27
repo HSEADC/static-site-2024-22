@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Кузовок" />
+    <meta
+      property="og:description"
+      content="Библиотека рецептов выпечки народов России"
+    />
+    <meta property="og:image" content="images/cover.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="images/cover.jpg" />
     <title>Кузовок</title>
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
     <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
   </head>
   <body>
     <header class="header">
-      <a class="header-logo" href="/">Кузовок</a>
+      <a class="header-logo" href="index.html">Кузовок</a>
       <nav class="nav">
         <ul>
           <li><a href="index.html">Главная</a></li>
@@ -92,34 +100,37 @@
           </ul>
         </section>
       </div>
-    </main>
-    <footer class="recipe-footer">
-      <div class="social-section">
-        <span>Поделиться в соцсетях</span>
-        <div class="social-share">
-          <a
-            href="https://t.me/share/url?url=https://hseadc.github.io/Kuzovok/recipes.html&text=Какой крутой сайт с рецептами выпечки народов России"
-            target="_blank"
-          >
-            <img src="images/telegram-icon.svg" alt="Поделиться в Телеграме" />
-          </a>
-          <a
-            href="https://vk.com/share.php?url=https://hseadc.github.io/Kuzovok/recipes.html"
-            target="_blank"
-          >
-            <img src="images/vk-icon.svg" alt="Поделиться ВКонтакте" />
-          </a>
+      <div class="action-buttons">
+        <div class="social-section">
+          <span>Поделиться в соцсетях</span>
+          <div class="social-share">
+            <a
+              href="https://t.me/share/url?url=https://hseadc.github.io/Kuzovok/recipes.html&text=Какой крутой сайт с рецептами выпечки народов России"
+              target="_blank"
+            >
+              <img
+                src="images/telegram-icon.svg"
+                alt="Поделиться в Телеграме"
+              />
+            </a>
+            <a
+              href="https://vk.com/share.php?url=https://hseadc.github.io/Kuzovok/recipes.html"
+              target="_blank"
+            >
+              <img src="images/vk-icon.svg" alt="Поделиться ВКонтакте" />
+            </a>
+          </div>
+        </div>
+
+        <div class="print-section">
+          <span>Распечатать рецепт</span>
+          <button class="print-button">PDF</button>
         </div>
       </div>
-
-      <div class="print-section">
-        <span>Распечатать рецепт</span>
-        <button class="print-button">PDF</button>
-      </div>
-
-      <div class="footer-logo">
-        <span>Кузовок</span>
-      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">Кузовок</div>
+      <div>HSE ADC, 2024</div>
     </footer>
   </body>
 </html>

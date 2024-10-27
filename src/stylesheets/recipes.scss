@@ -113,6 +113,14 @@ body {
   margin-bottom: 20px;
 }
 
+.step {
+  font-size: 18px;
+}
+
+.step + .step {
+  margin-top: 16px;
+}
+
 .ingredients ul {
   list-style: none;
   padding: 0;
@@ -121,16 +129,24 @@ body {
 .ingredients li {
   font-size: 18px;
   line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-buttons {
+  display: flex;
+  margin-top: 32px;
+  gap: 32px;
 }
 
 /* Footer */
-.recipe-footer {
-  background-color: #fce46d;
+footer {
   margin: 50px 150px;
   padding: 20px 0;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  border-top: 1px solid black;
 }
 
 .social-section,
@@ -150,21 +166,30 @@ body {
 
 .social-share {
   display: flex;
-  gap: 15px;
+  gap: 16px;
+}
+
+.social-share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #f9b03a;
+  text-decoration: none;
 }
 
 .social-share a img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  padding: 5px;
+  width: 24px;
+  height: 24px;
 }
 
 .print-button {
   background-color: #f9b03a;
-  color: white;
-  border: none;
+  color: black;
+  border: 1px solid black;
   border-radius: 15px;
   padding: 5px 15px;
   font-size: 16px;
@@ -176,11 +201,6 @@ body {
 }
 
 .footer-logo {
-  text-align: center;
-  width: 100%;
-}
-
-.footer-logo span {
   font-family: 'MV-WEEKEND', sans-serif;
   font-size: 40px;
   color: #d6724e;

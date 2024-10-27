@@ -23,7 +23,6 @@
   }
 
   .nav,
-  .social-icons,
   .pretzel,
   .croissant,
   .small-circle {
@@ -57,5 +56,29 @@
 
   form {
     flex-direction: column;
+  }
+
+  .recipe-section {
+    margin: 20px;
+  }
+
+  .recipe-content {
+    flex-direction: column-reverse;
+  }
+
+  .recipe-image {
+    height: 200px;
+  }
+
+  .recipe-tags {
+    flex-wrap: wrap;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  footer {
+    margin: 20px;
   }
 }
