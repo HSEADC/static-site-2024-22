@@ -3,14 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Кузовок" />
-    <meta
-      property="og:description"
-      content="Библиотека рецептов выпечки народов России"
-    />
-    <meta property="og:image" content="images/cover.jpg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="images/cover.jpg" />
     <title>Кузовок</title>
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
     <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
@@ -21,27 +13,73 @@
       <nav class="nav">
         <ul>
           <li><a href="index.html">Главная</a></li>
-          <li><a href="example.html">Пример статьи</a></li>
+          <li><a href="recipes.html">Пример статьи</a></li>
           <li><a href="about.html">О проекте</a></li>
         </ul>
       </nav>
       <div class="social-icons">
-        <a href="#"><img src="images/telegram-icon.svg" alt="Telegram" /></a>
-        <a href="#"><img src="images/vk-icon.svg" alt="VK" /></a>
+        <a href="https://t.me/+x4w3aILPXYRlMTEy" target="_blank"
+          ><img src="images/telegram-icon.svg" alt="Telegram"
+        /></a>
+        <a href="https://vk.com/club228014997" target="_blank"
+          ><img src="images/vk-icon.svg" alt="VK"
+        /></a>
       </div>
     </header>
 
-    <section class="subscribe-section">
-      <div class="decorations">
-        <!-- <img src="images/pretzel.png" alt="pretzel" />
-        <img src="images/croissant.png" alt="croissant" /> -->
-        <!-- добавьте остальные декоративные элементы -->
+    <main class="recipe-section">
+      <div class="recipe-header">
+        <img
+          src="images/recipe-image.png"
+          alt="Карельские калитки"
+          class="recipe-image"
+        />
+        <h1>Карельские калитки</h1>
+        <div class="recipe-tags">
+          <span class="tag">2 часа</span>
+          <span class="tag">Карельская кухня</span>
+          <span class="tag">Блюда из картофеля</span>
+        </div>
       </div>
-      <h1>Оставьте свою почту, чтобы не пропустить запуск</h1>
-      <form action="https://formspree.io/f/mjkvgvjr" method="POST">
-        <input type="email" name="email" placeholder="email" required />
-        <button type="submit">Подписаться</button>
-      </form>
-    </section>
+
+      <div class="recipe-content">
+        <section class="instructions">
+          <h2>Приготовление</h2>
+          <p>
+            Шаг 1: Замесите тесто из закваски, воды, соли и муки. Хорошо
+            вымесите. Положите в холодильник на полчаса.
+          </p>
+          <p>Шаг 2: Приготовьте картофельное пюре...</p>
+          <!-- Добавьте остальные шаги -->
+        </section>
+
+        <section class="ingredients">
+          <h2>Ингредиенты</h2>
+          <ul>
+            <li>Ржаная закваска - 150 г</li>
+            <li>Вода - 100 г</li>
+            <li>Ржаная мука - 150 г</li>
+            <!-- Добавьте остальные ингредиенты -->
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="recipe-footer">
+      <div class="social-share">
+        <a
+          href="https://t.me/share/url?url=https://hseadc.github.io/Kuzovok/recipes.html&text=Какой крутой сайт с рецептами выпечки народов России"
+          target="_blank"
+          ><img
+            src="images/telegram-icon.svg"
+            alt="Поделиться страницей в Тееграме"
+        /></a>
+        <a
+          href="https://vk.com/share.php?url=https://hseadc.github.io/Kuzovok/recipes.html"
+          target="_blank"
+          ><img src="images/vk-icon.svg" alt="Поделиться страницей ВКонтакте"
+        /></a>
+      </div>
+      <button class="print-button">Распечатать рецепт</button>
+    </footer>
   </body>
 </html>
