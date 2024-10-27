@@ -139,4 +139,33 @@
 	footer {
 		margin: 20px;
 	}
+
+	h1.name {
+		font-size: 55pt;
+	}
+	h2.name,
+	h2.first_name,
+	h2.second_name {
+		font-size: 11pt;
+	}
+	p.text {
+		font-size: 4pt;
+	}
+	h2.third_name {
+		font-size: 6pt;
+	}
+	div.text_card,
+	div.card,
+	div.option,
+	div.media1,
+	div.media2,
+	div.vk,
+	div.tg,
+	div.dima,
+	div.lera {
+		border-radius: 5pt;
+	}
+	div.card2 {
+		margin-left: -9vw;
+	}
 }
