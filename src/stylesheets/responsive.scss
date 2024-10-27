@@ -1,0 +1,25 @@
+@media screen and (min-width: 1920px) {
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1023px) {
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+}
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  body {
+    width: 100%;
+  }
+
+  .subscribe-section {
+    box-sizing: border-box;
+    margin: 50px 150px;
+  }
+}
