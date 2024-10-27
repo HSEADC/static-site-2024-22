@@ -19,6 +19,10 @@ body {
   text-decoration: none;
 }
 
+.header-logo:hover {
+  color: #ce6334;
+}
+
 .nav ul {
   display: flex;
   gap: 20px;
@@ -36,12 +40,26 @@ body {
   border-bottom: solid 1px black;
 }
 
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
 .social-icons a {
-  padding: 16px 12px;
-  margin-left: 15px;
-  border: solid 1px black;
-  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
   background-color: #f9b03a;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  background-color: #ce6334;
 }
 
 .social-icons img {
@@ -58,15 +76,46 @@ body {
   position: relative;
 }
 
-.decorations {
+.decorations .pretzel {
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: 10px;
+  left: 100px;
+  width: 220px;
 }
 
-.decorations img {
-  width: 50px;
-  margin: 0 10px;
+.decorations .croissant {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  width: 300px;
+}
+
+.decorations .triangle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 200px;
+}
+
+.decorations .heart {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  width: 123px;
+}
+
+.decorations .small-circle {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  width: 114px;
+}
+
+.decorations .patty {
+  position: absolute;
+  bottom: 20px;
+  right: 200px;
+  width: 120px;
 }
 
 .subscribe-section h1 {
