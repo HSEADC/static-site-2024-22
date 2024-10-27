@@ -18,8 +18,44 @@
     width: 100%;
   }
 
+  .header {
+    padding: 20px 20px;
+  }
+
+  .nav,
+  .social-icons,
+  .pretzel,
+  .croissant,
+  .small-circle {
+    display: none;
+  }
+
   .subscribe-section {
     box-sizing: border-box;
-    margin: 50px 150px;
+    margin: 20px;
+    padding: 280px 20px 20px;
+  }
+
+  .decorations .heart {
+    top: 20px;
+    left: 100px;
+  }
+
+  .decorations .triangle {
+    top: 30px;
+    left: 40px;
+  }
+
+  .decorations .patty {
+    top: 160px;
+    right: 40px;
+  }
+
+  .subscribe-section h1 {
+    font-size: 32px;
+  }
+
+  form {
+    flex-direction: column;
   }
 }

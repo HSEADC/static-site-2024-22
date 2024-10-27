@@ -125,12 +125,27 @@ body {
 
 /* Footer */
 .recipe-footer {
+  background-color: #fce46d;
+  margin: 50px 150px;
+  padding: 20px 0;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin: 30px 150px 0;
-  padding: 20px;
-  border-top: 1px solid #d3a15b;
+}
+
+.social-section,
+.print-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.social-section span,
+.print-section span {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
 }
 
 .social-share {
@@ -138,15 +153,35 @@ body {
   gap: 15px;
 }
 
+.social-share a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
 .print-button {
   background-color: #f9b03a;
-  border: 1px solid black;
-  border-radius: 12px;
-  padding: 10px 20px;
-  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 
 .print-button:hover {
   background-color: #ce6334;
+}
+
+.footer-logo {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-logo span {
+  font-family: 'MV-WEEKEND', sans-serif;
+  font-size: 40px;
+  color: #d6724e;
 }
