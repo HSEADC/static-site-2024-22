@@ -84,12 +84,21 @@ time,
 mark,
 audio,
 video {
+<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+=======
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+>>>>>>> b7a471759b2e770228cc44761caaa4975487addf
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -103,6 +112,7 @@ hgroup,
 menu,
 nav,
 section {
+<<<<<<< HEAD
 	display: block;
 }
 body {
@@ -115,15 +125,38 @@ ul {
 blockquote,
 q {
 	quotes: none;
+=======
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+>>>>>>> b7a471759b2e770228cc44761caaa4975487addf
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
+<<<<<<< HEAD
 	content: '';
 	content: none;
 }
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+=======
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+>>>>>>> b7a471759b2e770228cc44761caaa4975487addf
 }
