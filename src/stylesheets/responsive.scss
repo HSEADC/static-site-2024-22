@@ -1,0 +1,78 @@
+@media (max-width: 1860px) {
+	h2.name,
+	h2.first_name,
+	h2.second_name {
+		font-size: 48pt;
+	}
+	p.text {
+		font-size: 21pt;
+	}
+	h2.third_name {
+		font-size: 28pt;
+	}
+}
+
+@media (max-width: 1440px) {
+	h2.name,
+	h2.first_name,
+	h2.second_name {
+		font-size: 48pt;
+	}
+	p.text {
+		font-size: 19pt;
+	}
+	h2.third_name {
+		font-size: 27pt;
+	}
+}
+
+@media (max-width: 1366px) {
+	p.text {
+		font-size: 17pt;
+	}
+	h2.third_name {
+		font-size: 24pt;
+	}
+}
+
+@media (max-width: 1240px) {
+	h2.name,
+	h2.first_name,
+	h2.second_name {
+		font-size: 32pt;
+	}
+	p.text {
+		font-size: 12pt;
+	}
+	h2.third_name {
+		font-size: 15pt;
+	}
+}
+
+@media (max-width: 768px) {
+	h1.name {
+		font-size: 120pt;
+	}
+	h2.name,
+	h2.first_name,
+	h2.second_name {
+		font-size: 24pt;
+	}
+	p.text {
+		font-size: 10pt;
+	}
+	h2.third_name {
+		font-size: 15pt;
+	}
+	div.text_card,
+	div.card,
+	div.option,
+	div.media1,
+	div.media2,
+	div.vk,
+	div.tg,
+	div.dima,
+	div.lera {
+		border-radius: 10pt;
+	}
+}
