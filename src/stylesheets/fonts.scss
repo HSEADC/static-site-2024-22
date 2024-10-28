@@ -1,9 +1,16 @@
 @font-face {
-	font-family: 'MV-WEEKEND';
-	src: url(../fonts/MV-WEEKEND.otf);
+  font-family: 'MV-WEEKEND';
+  src: url(../fonts/MV-WEEKEND.otf);
 }
 @font-face {
-	font-family: 'Inter-Regular';
-	font-weight: 400;
-	src: url(../fonts/Inter-Regular.otf);
+  font-family: 'Inter-Regular';
+  font-weight: 400;
+  src: url(../fonts/Inter-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
 }
